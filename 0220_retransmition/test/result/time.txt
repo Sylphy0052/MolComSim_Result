@@ -1,0 +1,17 @@
+
+./dat/TxRx30_ARQ20-20_Pass-Pass_RTO1.dat,346,10
+./dat/TxRx30_ARQ20-20_Pass-Pass_RTO2.dat,396,10
+./dat/TxRx30_ARQ20-20_Pass-Pass_RTO3.dat,342,10
+./dat/TxRx30_ARQ20-20_Pass-Pass_RTO4.dat,368,10
+./dat/TxRx50_ARQ20-20_Pass-Pass_RTO1.dat,1823,10
+./dat/TxRx50_ARQ20-20_Pass-Pass_RTO2.dat,1858,10
+./dat/TxRx50_ARQ20-20_Pass-Pass_RTO3.dat,1403,10
+./dat/TxRx50_ARQ20-20_Pass-Pass_RTO4.dat,1252,10
+./dat/TxRx70_ARQ20-20_Pass-Pass_RTO1.dat,4070,10
+./dat/TxRx70_ARQ20-20_Pass-Pass_RTO2.dat,3925,10
+./dat/TxRx70_ARQ20-20_Pass-Pass_RTO3.dat,495,10
+./dat/TxRx70_ARQ20-20_Pass-Pass_RTO4.dat,4313,10
+./dat/TxRx90_ARQ20-20_Pass-Pass_RTO1.dat,6707,10
+./dat/TxRx90_ARQ20-20_Pass-Pass_RTO2.dat,6959,10
+./dat/TxRx90_ARQ20-20_Pass-Pass_RTO3.dat,6780,10
+./dat/TxRx90_ARQ20-20_Pass-Pass_RTO4.dat,7012,10
