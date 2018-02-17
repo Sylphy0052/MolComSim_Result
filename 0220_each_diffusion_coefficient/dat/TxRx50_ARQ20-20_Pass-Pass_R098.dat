@@ -28,13 +28,13 @@ maxSimulationStep 25000000
 ***** you would need to specify a radius of 3. ******************************************************
 ***** Molecule release position should be within the volume of the nanomachine, and represents the
 ***** location from which molecules will be released.
-transmitter (-45, 0, 0) 3 (-45, 0, 0)
+transmitter (-25, 0, 0) 3 (-25, 0, 0)
 
 ***** Specify receivers by: *************************************************************************
 *****  1) center position (x, y, z) *****************************************************************
 *****  2) size/radius (optional, defaults to 1) *****************************************************
 *****  3) molecule release position (x, y, z) (optional, defaults to same position as center) *******
-receiver (45, 0, 0) 3 (45, 0, 0)
+receiver (25, 0, 0) 3 (25, 0, 0)
 
 ***** Specify intermediate nodes by: ********************************************************************************
 *****  1) center position (x, y, z) **********************************************************************************
