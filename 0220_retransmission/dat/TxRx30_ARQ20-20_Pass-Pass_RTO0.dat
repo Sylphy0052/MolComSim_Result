@@ -6,9 +6,9 @@
 **********Please enter below the appropriate value of # in x,y,z direction *********************
 ***** No object can be placed outside of the diensions of the medium, and no object can move outside of these dimensions.
 
-mediumDimensionX 300
-mediumDimensionY 300
-mediumDimensionZ 300
+mediumDimensionX 120
+mediumDimensionY 120
+mediumDimensionZ 120
 
 ***** Specify the length of simulation ************
 ***** maxSimulationStep # means, the simulation will end at that step, unless it completed all the messages specified to be used
@@ -28,13 +28,13 @@ maxSimulationStep 25000000
 ***** you would need to specify a radius of 3. ******************************************************
 ***** Molecule release position should be within the volume of the nanomachine, and represents the
 ***** location from which molecules will be released.
-transmitter (-35, 0, 0) 3 (-35, 0, 0)
+transmitter (-15, 0, 0) 3 (-15, 0, 0)
 
 ***** Specify receivers by: *************************************************************************
 *****  1) center position (x, y, z) *****************************************************************
 *****  2) size/radius (optional, defaults to 1) *****************************************************
 *****  3) molecule release position (x, y, z) (optional, defaults to same position as center) *******
-receiver (35, 0, 0) 3 (35, 0, 0)
+receiver (15, 0, 0) 3 (15, 0, 0)
 
 ***** Specify intermediate nodes by: ********************************************************************************
 *****  1) center position (x, y, z) **********************************************************************************
@@ -51,14 +51,14 @@ numMessages 1
 
 ***** If using acknowledgements numRetransmissions represents the number of times a message will be
 ***** retransmitted before giving up (for both Tx and Rx nanomachines).
-** Median(132015.5) + 1/2 * Std(151205.9)
-retransmitWaitTime 207618
+numRetransmissions 0
 
 ***** retransmitWaitTime represents the time to wait before retransmitting a message (if no ack mols reach a Tx or no Info mols reach
 ***** an Rx during this time.  If they do, and they have the correct message ID, a new message is generated or the simulation ends.
 ***** If they do not have the correct message ID the current message is retransmitted and the retransmitWaitTime is reset.
 ***** If not using acknowledgements, retransmitwaitTime is simply the amount of time to wait between new message transmissions.
-retransmitWaitTime 1000
+** 2 * median(5322.5)
+retransmitWaitTime 0
 
 *********Information about Molecules******************
 
@@ -102,10 +102,8 @@ decomposing 0
 ***** release position, but with end point at least 3 units from the Rx's molecule release position (but sitll within the volume of the Rx.
 ***** The other with start point at the Rx's molecule release position, but with end point at least 3 units from the Tx's release position
 ***** (but still within the volume of the Tx).
-**microtubuleParams (-35, 0, 0) (35, 0, 0)
-**microtubuleParams (35, 3, 3) (-35, 0, 0)
 **microtubuleParams (-15, 0, 0) (15, 0, 0)
 **microtubuleParams (15, 3, 3) (-15, 0, 0)
 
 ***** Name of the file to output results to.
-outputFile TxRx70_ARQ20-20_Pass-Pass_RTO3.txt
+outputFile TxRx30_ARQ20-20_Pass-Pass_RTO0.txt
