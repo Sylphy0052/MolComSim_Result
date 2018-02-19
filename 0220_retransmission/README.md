@@ -34,6 +34,21 @@ compare_mean_by_rto_each_distance
 compare_median_by_rto_each_distance
 ![compare_median_by_rto_each_distance](./compare_median_by_rto_each_distance/20-20_PASSIVE-PASSIVE.png)
 
+### compare_jitter_by_retransmission_wait_time_each_distance
+- 各距離ごとにX軸を再送信の時間，Y軸を標準偏差でプロット
+
+![](./compare_jitter_by_retransmission_wait_time_each_distance/20-20_PASSIVE-PASSIVE.png)
+
+### compare_mean/median_by_retransmission_wait_time_each_distance
+- 各距離ごとにX軸を再送信の時間，Y軸を平均/中央値でプロット
+
+compare_mean_by_retransmission_wait_time_each_distance
+![](./compare_mean_by_retransmission_wait_time_each_distance/20-20_PASSIVE-PASSIVE.png)
+
+compare_median_by_retransmission_wait_time_each_distance
+![](./compare_median_by_retransmission_wait_time_each_distance/20-20_PASSIVE-PASSIVE.png)
+
+
 ### compare_regression_jitter_by_distance_each_rto
 - 各RTOの算出方法ごとにX軸を距離，Y軸に標準偏差でプロットし，回帰式を算出
 - 距離が長くなればなるほど，再送信をした方が効率的になる
@@ -51,3 +66,17 @@ compare_regression_mean_by_distance_each_rto
 
 compare_regression_median_by_distance_each_rto
 ![compare_regression_median_by_distance_each_rto](./compare_regression_median_by_distance_each_rto/20-20_PASSIVE-PASSIVE.png)
+
+### compare_regression_jitter_by_retransmission_wait_time_each_distance
+- 各距離ごとにX軸を再送信の時間，Y軸を標準偏差でプロット
+
+![](./compare_regression_jitter_by_retransmission_wait_time_each_distance/20-20_PASSIVE-PASSIVE.png)
+
+### compare_regression_mean/median_by_retransmission_wait_time_each_distance
+- 各距離ごとにX軸を再送信の時間，Y軸を平均/中央値でプロット
+
+compare_regression_mean_by_retransmission_wait_time_each_distance
+![](./compare_regression_mean_by_retransmission_wait_time_each_distance/20-20_PASSIVE-PASSIVE.png)
+
+compare_regression_median_by_retransmission_wait_time_each_distance
+![](./compare_regression_median_by_retransmission_wait_time_each_distance/20-20_PASSIVE-PASSIVE.png)
